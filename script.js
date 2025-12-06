@@ -71,7 +71,7 @@ const githubProfileBtn = document.getElementById("githubProfileBtn");
 
 [avatarBtn, githubProfileBtn].forEach((el) => {
   el.addEventListener("click", () => {
-    window.open("https://github.com/itzpremsingh", "_blank");
+    window.open("https://github.com/SilentCoderHere", "_blank");
   });
 });
 
