@@ -95,7 +95,9 @@ document.getElementById("sendEmailBtn").addEventListener("click", (event) => {
   if (isValid) {
     const subject = encodeURIComponent(`Reason: ${reason}`);
     const body = encodeURIComponent(message);
-    window.open(`mailto:premsingh@tuta.io?subject=${subject}&body=${body}`);
+    window.open(
+      `mailto:silentcoder@tutamail.com?subject=${subject}&body=${body}`
+    );
 
     const confirmMail = new bootstrap.Modal(
       document.getElementById("confirmMail")
