@@ -1,4 +1,4 @@
-# Official Website of Prem Singh
+# Official Website of Silent Coder
 
 Welcome to my official website repository! This project is the central hub for showcasing all my GitHub projects, built using HTML, CSS, JavaScript, and Python. The goal of this website is to provide an easy-to-navigate space for exploring my coding journey and projects.
 
