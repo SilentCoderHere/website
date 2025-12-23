@@ -5,8 +5,8 @@ const htmlItems = document.getElementById("htmlItems");
 const pythonItems = document.getElementById("pythonItems");
 
 const allHtmlProjects = [
-  { title: "Flappy Bird", repo: "flappy-bird", image: false },
-  { title: "Reaction time", repo: "reaction-time", image: false },
+  { title: "Flappy Bird", repo: "flappy-bird", image: true },
+  { title: "Reaction time", repo: "reaction-time", image: true },
   { title: "Personality test", repo: "personality-test", image: true },
   { title: "Tic tac toe game", repo: "tictactoe-game", image: true },
   { title: "Memory game", repo: "memory-game", image: true },
@@ -20,7 +20,7 @@ const pythonProjects = [
     description:
       "A simple Python demo to learn how End-to-End (E2E) encryption works using RSA keys.",
     repo: "e2e-demo",
-    image: false,
+    image: true,
   },
   {
     title: "Chat Application",
@@ -41,7 +41,7 @@ const pythonProjects = [
     description:
       "Easily share files between PC and mobile devices via command line.",
     repo: "pyshare",
-    image: false,
+    image: true,
   },
 ];
 
